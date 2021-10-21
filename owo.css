@@ -109,7 +109,8 @@
 .serverPing,
 #voiceDisplay,
 .bigMFeatBarI.rankClck,
-#seasonLabel {
+#seasonLabel,
+#rankedSoonTm {
 	display: none !important;
 }
 .buttonPI, .buttonO, .buttonP, .buttonR, .buttonG, .menuItem, #menuItemContainer {
