@@ -517,7 +517,7 @@
 	padding-left: 0;
 	position: fixed;
 	background-color: transparent;
-	background-image: url(https://dummyimage.com/1x1/ffffff/ffffff.png);
+	background-image: linear-gradient(to right, red, red);
 	width: 50px;
 	height: 4px;
 	top: calc(50% + 35px);
