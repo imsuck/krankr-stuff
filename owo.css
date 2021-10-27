@@ -632,14 +632,14 @@
 }
 
 #weapDisplay {
-    display: inline-block !important;
-    position: fixed;
-    right: 50%;
-    transform: translate(50%);
-    bottom: 0;
+	display: inline-block !important;
+	position: fixed;
+	right: 50%;
+	transform: translate(50%);
+	bottom: 0;
 }
 .weapKey {
-    display:none;
+	display:none;
 }
 .weapIcon {
 	transform: scale(0);
@@ -647,8 +647,8 @@
 }
 .weapIcon[style*="opacity: 1;"] {
 	display: inline-block !important;
-    transform: scale(1.5);
-    transition-duration: 0.3s;
+	transform: scale(1.5);
+	transition-duration: 0.3s;
 }
 #weapItem_0, #weapItem_1, #weapItem_2 {
 	display: block;
@@ -660,5 +660,5 @@
 #weapItem_0 { transform: translate(-50%, 200%) }
 #weapItem_1 { transform: translate(-55%, 95%) }
 #uiBase.onDeathScrn #weapDisplay .weapIcon {
-    display: none !important;
+	display: none !important;
 }
