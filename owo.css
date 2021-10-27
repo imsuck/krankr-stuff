@@ -588,7 +588,7 @@
 .leaderNameM:before {
 	font-family: material-icons;
 	display: inline-block;
-	content: check_circle;
+	content: "check_circle";
 	color: #2196F3;
 	font-size: 25px !important;
 	transform: translate(-5px, 5px);
