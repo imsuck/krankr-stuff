@@ -586,24 +586,16 @@
 	color: #DDD !important;
 }
 .leaderNameM:before {
+	font-family: material-icons;
 	display: inline-block;
-	content: '>';
-	font-weight: 700;
-	color: #0FF;
-	font-size: 28px !important;
-	transform: translate(-3px, 3px);
+	content: check_circle;
+	color: #2196F3;
+	font-size: 25px !important;
+	transform: translate(-5px, 5px);
 }
 .leaderNameM {
 	margin-top: -7px;
 	color: #0FF;
-}
-.leaderNameM:after {
-	display: inline-block;
-	content: '<';
-	font-weight: 700;
-	color: #0FF;
-	font-size: 28px !important;
-	transform: translate(3px, 3px);
 }
 
 .leaderNameM span {
@@ -636,7 +628,7 @@
 	position: fixed;
 	right: 50%;
 	transform: translate(50%);
-	bottom: 0;
+	bottom: -100px;
 }
 .weapKey {
 	display:none;
@@ -647,7 +639,7 @@
 }
 .weapIcon[style*="opacity: 1;"] {
 	display: inline-block !important;
-	transform: scale(1.5);
+	transform: scale(1.5) translateY(-200px);
 	transition-duration: 0.3s;
 }
 #weapItem_0, #weapItem_1, #weapItem_2 {
