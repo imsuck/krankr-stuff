@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: leader;
-	src: url(https://raw.githubusercontent.com/thisisgreat23/krankr_stuff/main/fonts/Roboto-Black.ttf)
+	src: url(https://raw.githubusercontent.com/thisisgreat23/krankr_stuff/main/fonts/Roboto-Black.ttf);
 }
 
 /* Menu */
@@ -18,7 +18,8 @@
 #menuMiniProfilePic {
 	position: fixed;
 	top: 0;
-	content: var(--pfp); image-rendering: auto;
+	content: var(--pfp);
+	image-rendering: auto;
 	height: 100px;
 	width: 100px;
 	border-radius: 0;
@@ -86,15 +87,21 @@
 	width: 335px !important;
 }
 
-#profilePicM:hover{opacity:1}.blurred {
-	filter:grayscale(0) opacity(1); 
-	content: var(--pfp); image-rendering: auto;
+#profilePicM:hover {
+	opacity: 1;
+}
+.blurred {
+	filter: grayscale(0) opacity(1);
+	content: var(--pfp);
+	image-rendering: auto;
 }
 .iconProfile {
-	background-image: var(--pfp); image-rendering: auto;
+	background-image: var(--pfp);
+	image-rendering: auto;
 }
 .menuItem:hover .iconProfile {
-	background-image: var(--pfp); image-rendering: auto;
+	background-image: var(--pfp);
+	image-rendering: auto;
 }
 #streamContainer,
 #faceItIconM,
@@ -102,10 +109,14 @@
 #termsInfo,
 .youNewDiv,
 #editorBtnM,
-.menuSocialB, .verticalSeparator,
+.menuSocialB,
+.verticalSeparator,
 #newsHolder,
 .menBtnIcn,
-#aContainer, #aHolder, #endAContainer, #aMerger,
+#aContainer,
+#aHolder,
+#endAContainer,
+#aMerger,
 .serverPing,
 #voiceDisplay,
 .bigMFeatBarI.rankClck,
@@ -113,11 +124,20 @@
 #rankedSoonTm {
 	display: none !important;
 }
-.buttonPI, .buttonO, .buttonP, .buttonR, .buttonG, .menuItem, #menuItemContainer {
+.buttonPI,
+.buttonO,
+.buttonP,
+.buttonR,
+.buttonG,
+.menuItem,
+#menuItemContainer {
 	border: none !important;
 	background: transparent !important;
 }
-.buttonPI:hover, .buttonO:hover, .buttonP:hover, .buttonR:hover {
+.buttonPI:hover,
+.buttonO:hover,
+.buttonP:hover,
+.buttonR:hover {
 	border: none !important;
 }
 #menuItemContainer {
@@ -150,101 +170,130 @@
 	margin-top: 0;
 	font-size: 18px !important;
 	pointer-events: all;
-	transition: all .2s;
+	transition: all 0.2s;
 }
 
 /*Class selector*/
 #hiddenClasses {
-	display:flex !important;
-	flex-direction:row;
-	position:fixed;
-	left:50%;
-	bottom:18%;
-	transform:translate(-50%);
-	margin-right:10px;
+	display: flex !important;
+	flex-direction: row;
+	position: fixed;
+	left: 50%;
+	bottom: 18%;
+	transform: translate(-50%);
+	margin-right: 10px;
 }
 
-#menuClassPicker0[onclick="selectClass(0)"],#menuClassPicker1[onclick="selectClass(1)"],#menuClassPicker2[onclick="selectClass(2)"],#menuClassPicker3[onclick="selectClass(3)"],#menuClassPicker4[onclick="selectClass(4)"],#menuClassPicker5[onclick="selectClass(5)"],#menuClassPicker6[onclick="selectClass(6)"],#menuClassPicker7[onclick="selectClass(7)"],#menuClassPicker8[onclick="selectClass(8)"],#menuClassPicker9[onclick="selectClass(9)"],#menuClassPicker10[onclick="selectClass(10)"],#menuClassPicker11[onclick="selectClass(11)"],#menuClassPicker12[onclick="selectClass(12)"],#menuClassPicker13[onclick="selectClass(13)"],#menuClassPicker14[onclick="selectClass(14)"] {
-	display:block;
-	width:60px;
-	height:60px;
-	pointer-events:auto;
-	image-rendering:pixelated;
-	margin-right:10px;
-	filter:saturate(0);
-	transition:filter 0.5s;
+#menuClassPicker0[onclick="selectClass(0)"],
+#menuClassPicker1[onclick="selectClass(1)"],
+#menuClassPicker2[onclick="selectClass(2)"],
+#menuClassPicker3[onclick="selectClass(3)"],
+#menuClassPicker4[onclick="selectClass(4)"],
+#menuClassPicker5[onclick="selectClass(5)"],
+#menuClassPicker6[onclick="selectClass(6)"],
+#menuClassPicker7[onclick="selectClass(7)"],
+#menuClassPicker8[onclick="selectClass(8)"],
+#menuClassPicker9[onclick="selectClass(9)"],
+#menuClassPicker10[onclick="selectClass(10)"],
+#menuClassPicker11[onclick="selectClass(11)"],
+#menuClassPicker12[onclick="selectClass(12)"],
+#menuClassPicker13[onclick="selectClass(13)"],
+#menuClassPicker14[onclick="selectClass(14)"] {
+	display: block;
+	width: 60px;
+	height: 60px;
+	pointer-events: auto;
+	image-rendering: pixelated;
+	margin-right: 10px;
+	filter: saturate(0);
+	transition: filter 0.5s;
 }
 
 #menuClassPicker0[onclick="selectClass(0)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
 }
 
 #menuClassPicker1[onclick="selectClass(1)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
 }
 
 #menuClassPicker2[onclick="selectClass(2)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
 }
 
 #menuClassPicker3[onclick="selectClass(3)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
 }
 
 #menuClassPicker4[onclick="selectClass(4)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
 }
 
 #menuClassPicker5[onclick="selectClass(5)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
 }
 
 #menuClassPicker6[onclick="selectClass(6)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
 }
 
 #menuClassPicker7[onclick="selectClass(7)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
 }
 
 #menuClassPicker8[onclick="selectClass(8)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
 }
 
 #menuClassPicker9[onclick="selectClass(9)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
 }
 
 #menuClassPicker10[onclick="selectClass(10)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
 }
 
 #menuClassPicker11[onclick="selectClass(11)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
 }
 
 #menuClassPicker12[onclick="selectClass(12)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
 }
 
 #menuClassPicker13[onclick="selectClass(13)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
+	content: url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
 }
 
 #menuClassPicker14[onclick="selectClass(14)"] {
-	content:url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);	
+	content: url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);
 }
 
-#menuClassPicker0[onclick="selectClass(0)"]:hover,#menuClassPicker1[onclick="selectClass(1)"]:hover,#menuClassPicker2[onclick="selectClass(2)"]:hover,#menuClassPicker3[onclick="selectClass(3)"]:hover,#menuClassPicker4[onclick="selectClass(4)"]:hover,#menuClassPicker5[onclick="selectClass(5)"]:hover,#menuClassPicker6[onclick="selectClass(6)"]:hover,#menuClassPicker7[onclick="selectClass(7)"]:hover,#menuClassPicker8[onclick="selectClass(8)"]:hover,#menuClassPicker9[onclick="selectClass(9)"]:hover,#menuClassPicker10[onclick="selectClass(10)"]:hover,#menuClassPicker11[onclick="selectClass(11)"]:hover,#menuClassPicker12[onclick="selectClass(12)"]:hover,#menuClassPicker13[onclick="selectClass(13)"]:hover,#menuClassPicker14[onclick="selectClass(14)"]:hover {
-	cursor:pointer;
-	filter:saturate(1) drop-shadow(0 0 20px var(--accent));
-	transition:filter 0.5s;
+#menuClassPicker0[onclick="selectClass(0)"]:hover,
+#menuClassPicker1[onclick="selectClass(1)"]:hover,
+#menuClassPicker2[onclick="selectClass(2)"]:hover,
+#menuClassPicker3[onclick="selectClass(3)"]:hover,
+#menuClassPicker4[onclick="selectClass(4)"]:hover,
+#menuClassPicker5[onclick="selectClass(5)"]:hover,
+#menuClassPicker6[onclick="selectClass(6)"]:hover,
+#menuClassPicker7[onclick="selectClass(7)"]:hover,
+#menuClassPicker8[onclick="selectClass(8)"]:hover,
+#menuClassPicker9[onclick="selectClass(9)"]:hover,
+#menuClassPicker10[onclick="selectClass(10)"]:hover,
+#menuClassPicker11[onclick="selectClass(11)"]:hover,
+#menuClassPicker12[onclick="selectClass(12)"]:hover,
+#menuClassPicker13[onclick="selectClass(13)"]:hover,
+#menuClassPicker14[onclick="selectClass(14)"]:hover {
+	cursor: pointer;
+	filter: saturate(1) drop-shadow(0 0 20px var(--accent));
+	transition: filter 0.5s;
 }
 
 #headerRight {
 	background-color: transparent !important;
 }
-#menuRegionLabel, menuPingText {
+#menuRegionLabel,
+menuPingText {
 	font-size: 32px !important;
 }
 
@@ -255,7 +304,7 @@
 	font-size: 0 !important;
 }
 #menuBtnProfile:after {
-	content: 'Profile';
+	content: "Profile";
 	font-size: 18px !important;
 }
 #menuBtnShop {
@@ -263,7 +312,7 @@
 	transform: translateX(-15%);
 }
 #menuBtnShop:after {
-	content: 'Shop';
+	content: "Shop";
 	font-size: 18px !important;
 }
 
@@ -312,14 +361,14 @@
 	background: black !important;
 	box-shadow: none !important;
 }
-.altlistelement, .altdeletebtn {
+.altlistelement,
+.altdeletebtn {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 	box-shadow: none !important;
 }
 
 #uiBase.onMenu #spectateUI {
-
 	display: block !important;
 
 	position: fixed;
@@ -338,9 +387,7 @@
 	width: 10px;
 
 	height: 10px;
-
 }
-
 
 #uiBase.onMenu #spectateHUD {
 	display: flex;
@@ -349,20 +396,26 @@
 	left: unset;
 }
 
-
-#uiBase.onMenu #specTeam0, #uiBase.onMenu #spec0, #uiBase.onMenu #spec1, #uiBase.onMenu #specNames, #uiBase.onMenu #specStats, #uiBase.onMenu #specContr, #uiBase.onMenu #specKPDContr, #uiBase.onMenu #specSus, #uiBase.onMenu #specTeam1, #uiBase.onMenu #specGMessage, #uiBase.onMenu #specGameInfo {
-	display: none!important;
+#uiBase.onMenu #specTeam0,
+#uiBase.onMenu #spec0,
+#uiBase.onMenu #spec1,
+#uiBase.onMenu #specNames,
+#uiBase.onMenu #specStats,
+#uiBase.onMenu #specContr,
+#uiBase.onMenu #specKPDContr,
+#uiBase.onMenu #specSus,
+#uiBase.onMenu #specTeam1,
+#uiBase.onMenu #specGMessage,
+#uiBase.onMenu #specGameInfo {
+	display: none !important;
 }
-
 
 #uiBase.onMenu #specTimer {
 	display: block !important;
 	font-size: 35px;
 	background-color: transparent;
-	color: rgba(255,255,255,.55)
-
-} 
-
+	color: rgba(255, 255, 255, 0.55);
+}
 
 /* Loading menu */
 @keyframes legacyloader {
@@ -387,24 +440,24 @@
 #loadGamNm {
 	display: block !important;
 	left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
+	top: 50%;
+	transform: translate(-50%, -50%);
 	font-size: 0;
 	width: 500px;
-		height: 500px;
-		line-height: 500px;
-		background: black;
+	height: 500px;
+	line-height: 500px;
+	background: black;
 }
 
 #loadGamNm::before {
 	content: "CONNECTING...";
 	color: rgba(255, 255, 255, 0.8);
-	font-size: 32px; 
-	animation: grow .8s infinite alternate;
+	font-size: 32px;
+	animation: grow 0.8s infinite alternate;
 }
 
 #instructions > *[style*="transform:scale(1.4);"] {
-	transform: scale(0.7) !important; 
+	transform: scale(0.7) !important;
 }
 
 #instructions > * > .lds-ring {
@@ -422,14 +475,15 @@
 	top: 0;
 	left: 0;
 	color: rgba(255, 255, 255, 0.8);
-	transform: translate(-50%,-75%);
-	font-size: 32px; 
-	animation: legacyloader .8s infinite alternate;
+	transform: translate(-50%, -75%);
+	font-size: 32px;
+	animation: legacyloader 0.8s infinite alternate;
 }
 
 /* In-game */
 #hudClassIcon {
-	content: var(--pfp); image-rendering: auto;
+	content: var(--pfp);
+	image-rendering: auto;
 	width: 100px;
 	height: 100px;
 	top: 5px;
@@ -439,7 +493,12 @@
 	margin: 10px;
 }
 
-#maxHP, #challIcon, #ammoIcon, #ammoMax, #timerIcon, #voteToKick {
+#maxHP,
+#challIcon,
+#ammoIcon,
+#ammoMax,
+#timerIcon,
+#voteToKick {
 	display: none !important;
 }
 #reloadMsg {
@@ -461,7 +520,7 @@
 #healthValue {
 	font-size: 96px;
 	font-weight: 700;
-	text-shadow: 4px 4px 4px rgba(0, 0, 0, .75);
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 }
 #healthValueHolder {
 	background: transparent;
@@ -496,7 +555,6 @@
 	box-shadow: unset;
 }
 
-
 #ammoVal {
 	position: fixed;
 	background-color: transparent;
@@ -508,7 +566,7 @@
 	font-size: 96px;
 	font-weight: 700;
 	text-align: center;
-	text-shadow: 4px 4px 4px rgba(0, 0, 0, .75);
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 }
 #ammoDisplay {
 	transform: none;
@@ -517,14 +575,13 @@
 	padding-left: 0;
 	position: fixed;
 	background-color: transparent;
-	background-image: linear-gradient(to right, red, red);
+	background-image: linear-gradient(red, red);
 	width: 50px;
 	height: 4px;
 	top: calc(50% + 35px);
 	left: calc(50% - 25px);
 	border-radius: 0;
 }
-
 
 #timerDisplay {
 	position: fixed;
@@ -545,11 +602,13 @@
 	font-size: 64px;
 }
 
-
-#pingIcon, menuPingIcon.material-icons {
+#pingIcon,
+menuPingIcon.material-icons {
 	color: #0f0 !important;
 }
-#fpsDisplay, #pingDisplay, #teamScores {
+#fpsDisplay,
+#pingDisplay,
+#teamScores {
 	transform: translateY(110px);
 }
 #teamScores {
@@ -557,21 +616,20 @@
 	border-radius: 0;
 	margin: 0;
 }
-#tScoreV1, #tScoreV2 {
+#tScoreV1,
+#tScoreV2 {
 	display: inline-block !important;
 }
 #curGameInfo {
 	display: none !important;
 }
 
-
-
 .endTablePfp {
 	width: 64px;
 	height: 64px;
 	border: none;
 	background: none;
-	content: var(--pfp); 
+	content: var(--pfp);
 	image-rendering: auto;
 }
 .endTableFlag {
@@ -581,21 +639,24 @@
 	border-radius: 32px;
 }
 
-
-.leaderNameF, .leaderNameF span, .leaderName span, .leaderCounter, .leaderScore {
-	color: #DDD !important;
+.leaderNameF,
+.leaderNameF span,
+.leaderName span,
+.leaderCounter,
+.leaderScore {
+	color: #ddd !important;
 }
 .leaderNameM:before {
 	font-family: material-icons;
 	display: inline-block;
 	content: "check_circle";
-	color: #2196F3 !important;
+	color: #2196f3 !important;
 	font-size: 25px !important;
 	transform: translate(-5px, 5px);
 }
 .leaderNameM {
 	margin-top: -7px;
-	color: #0FF;
+	color: #0ff;
 }
 
 .leaderNameM span {
@@ -612,12 +673,15 @@
 	width: 400px;
 	font-size: 40px;
 	font-weight: 900;
-	color: #FFF;
+	color: #fff;
 	margin-bottom: 8px;
-	padding-left: 10px; padding-top: 5px; padding-bottom: 5px;
-	background-color: #0FF;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #0ff;
 	transform: skewX(-9deg) translateY(-5px);
-	filter: drop-shadow(1px 1px 0 #000) drop-shadow(2px 2px 0 #000) drop-shadow(3px 3px 0 #000) drop-shadow(4px 4px 2px #000);
+	filter: drop-shadow(1px 1px 0 #000) drop-shadow(2px 2px 0 #000)
+		drop-shadow(3px 3px 0 #000) drop-shadow(4px 4px 2px #000);
 }
 #leaderDisplay {
 	background: none;
@@ -631,7 +695,7 @@
 	bottom: -100px;
 }
 .weapKey {
-	display:none;
+	display: none;
 }
 .weapIcon {
 	transform: scale(0);
@@ -642,15 +706,21 @@
 	transform: scale(1.5) translateY(-200px);
 	transition-duration: 0.3s;
 }
-#weapItem_0, #weapItem_1, #weapItem_2 {
+#weapItem_0,
+#weapItem_1,
+#weapItem_2 {
 	display: block;
 	margin: unset !important;
 	left: 50%;
 	bottom: 5%;
 	transform: translateX(-50%);
 }
-#weapItem_0 { transform: translate(-50%, 200%) }
-#weapItem_1 { transform: translate(-55%, 95%) }
+#weapItem_0 {
+	transform: translate(-50%, 200%);
+}
+#weapItem_1 {
+	transform: translate(-55%, 95%);
+}
 #uiBase.onDeathScrn #weapDisplay .weapIcon {
 	display: none !important;
 }
