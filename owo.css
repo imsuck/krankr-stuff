@@ -9,6 +9,7 @@
 	--accent-color: #ffb7c5;
 	--health-color: var(--accent-color);
 	--ammo-color: #fff;
+	--ammo-reload-color: #0ff;
 	--premium-color: #fbc02d;
 	--verified-color: #40c4ff;
 	--menu-bg-color: rgba(15, 15, 15, 0.2);
@@ -271,7 +272,7 @@
 	right: 35%;
 	width: 150px;
 	height: 5px;
-	background-image: linear-gradient(var(--accent-color), var(--accent-color));
+	background-image: linear-gradient(var(--ammo-reload-color), var(--ammo-reload-color));
 }
 #ammoVal {
 	font-size: 96px;
