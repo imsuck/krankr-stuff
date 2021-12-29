@@ -364,7 +364,7 @@
 /* Random pfp thing */
 #profilePicM {
 	border-width: 0;
-	border-radius: var(--pfp-r);
+	border-radius: calc(var(--pfp-r) * 2);
 }
 #profilePicM > img {
 	content: var(--pfp);
