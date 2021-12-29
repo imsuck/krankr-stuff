@@ -373,3 +373,6 @@
 	filter: none;
 	image-rendering: auto;
 }
+.pfpAction {
+	background-color: transparent;
+}
