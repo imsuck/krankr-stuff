@@ -285,7 +285,7 @@
 	position: fixed;
 	display: block;
 	bottom: 5%;
-	left: calc(35% + calc(150px - var(--pfp-w)));
+	left: calc(35% + calc(110px - var(--pfp-w)));
 	width: var(--pfp-w);
 	height: var(--pfp-h);
 	content: var(--pfp);
