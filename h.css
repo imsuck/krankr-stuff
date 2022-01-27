@@ -1,0 +1,117 @@
+/*	https://discord.gg/phKrnFvE3s
+	krunker css discord ^
+	don't know why did I put this
+*/
+@import url(https://css.reizu.moe/reizu/reizu.css);
+@import url(https://envyxyz.github.io/removal/removal.css);
+
+:root {
+	--accent-color: #ffb7c5;
+	--health-color: var(--accent-color);
+	--ammo-color: #fff;
+	--ammo-reload-color: #0ff;
+	--premium-color: #fbc02d;
+	--verified-color: #40c4ff;
+	--menu-bg-color: rgba(15, 15, 15, 0.2);
+	--menu-bg-color-secondary: rgba(0, 0, 0, 0.5);
+	--ingame-bg-color: rgba(15, 15, 15, 0.2);
+	--text-transform: lowercase;
+	--pfp: url(https://cdn.discordapp.com/avatars/733198765162496120/75c2ffe0db9261d7920c1534220bf051.png?size=128);
+	--pfp-w: 96px;
+	--pfp-h: 96px;
+	--pfp-r: 5px; /*pfp edge radius*/
+	--shadow: 2.5px 5px 5px black; /*spread vertical horizontal colour*/
+}
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://raw.githubusercontent.com/thisisgreat23/krankr_stuff/main/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+	font-family: hpammo;
+	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+}
+
+/* Loading menu */
+@keyframes legacyloader {
+	from {
+		opacity: 0.7;
+		font-size: 30px;
+	}
+}
+
+#initLoader {
+	background-color: transparent;
+}
+
+#initLoader > * {
+	display: none;
+}
+
+#initLoader > :empty {
+	opacity: 0;
+}
+
+#loadGamNm {
+	display: block !important;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 0;
+	width: 500px;
+	height: 500px;
+	line-height: 500px;
+	background: black;
+}
+
+#loadGamNm::before {
+	content: "CONNECTING...";
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 32px;
+	animation: grow 0.8s infinite alternate;
+}
+
+#instructions > *[style*="transform:scale(1.4);"] {
+	transform: scale(0.7) !important;
+}
+
+#instructions > * > .lds-ring {
+	width: unset;
+	height: unset;
+}
+
+#instructions > * > .lds-ring > * {
+	display: none;
+}
+
+#instructions > * > .lds-ring::before {
+	content: "LOADING...";
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: rgba(255, 255, 255, 0.8);
+	transform: translate(-50%, -75%);
+	font-size: 32px;
+	animation: legacyloader 0.8s infinite alternate;
+}
+
+/* idkr */
+#altAdd {
+	padding-top: 30px;
+}
+
+/* Random pfp thing */
+#profilePicM {
+	border-width: 0;
+	border-radius: calc(var(--pfp-r) * 2);
+}
+#profilePicM > img {
+	content: var(--pfp);
+}
+.blurred {
+	filter: none;
+	image-rendering: auto;
+}
+.pfpAction {
+	background-color: transparent;
+}
