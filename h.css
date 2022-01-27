@@ -2,34 +2,12 @@
 	krunker css discord ^
 	don't know why did I put this
 */
-@import url(https://css.reizu.moe/reizu/reizu.css);
 @import url(https://envyxyz.github.io/removal/removal.css);
 
 :root {
-	--accent-color: #ffb7c5;
-	--health-color: var(--accent-color);
-	--ammo-color: #fff;
-	--ammo-reload-color: #0ff;
-	--premium-color: #fbc02d;
-	--verified-color: #40c4ff;
-	--menu-bg-color: rgba(15, 15, 15, 0.2);
-	--menu-bg-color-secondary: rgba(0, 0, 0, 0.5);
-	--ingame-bg-color: rgba(15, 15, 15, 0.2);
-	--text-transform: lowercase;
-	--pfp: url(https://cdn.discordapp.com/avatars/733198765162496120/75c2ffe0db9261d7920c1534220bf051.png?size=128);
-	--pfp-w: 96px;
-	--pfp-h: 96px;
+	--pfp: url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128);
 	--pfp-r: 5px; /*pfp edge radius*/
 	--shadow: 2.5px 5px 5px black; /*spread vertical horizontal colour*/
-}
-
-@font-face {
-	font-family: gamefont;
-	src: url(https://raw.githubusercontent.com/thisisgreat23/krankr_stuff/main/fonts/Roboto-Medium.ttf);
-}
-@font-face {
-	font-family: hpammo;
-	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
 }
 
 /* Loading menu */
@@ -101,12 +79,16 @@
 }
 
 /* Random pfp thing */
+#hudClassIcon {
+	content: var(--pfp, url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128));
+	filter: drop-shadow(var(--shadow));
+}
 #profilePicM {
 	border-width: 0;
 	border-radius: calc(var(--pfp-r) * 2);
 }
 #profilePicM > img {
-	content: var(--pfp);
+	content: var(--pfp, url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128));
 }
 .blurred {
 	filter: none;
@@ -114,4 +96,20 @@
 }
 .pfpAction {
 	background-color: transparent;
+}
+
+.chatItem > span {
+	color: #65ccff;
+}
+
+#curGameInfo {
+	font-size: 0;
+}
+#curGameInfo:after {
+	font-size: 18px !important;
+	color: #65ccff;
+	content: "PogPega";
+}
+#mainLogo { 
+	content: url(https://imsuck.github.io/krankr-stuff/img/PogPega.png);
 }
