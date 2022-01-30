@@ -77,7 +77,7 @@
 #uiBase.onMenu #spectateUI {
 	display: block !important;
 	position: fixed;
-	bottom: 50%;
+	bottom: 48%;
 	top: unset;
 	left: 50%;
 	right: unset;
@@ -113,7 +113,7 @@
 	font-size: 35px;
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.55);
-}a
+}
 
 /* idkr */
 #altAdd {
