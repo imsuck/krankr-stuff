@@ -156,3 +156,14 @@
 #mainLogo { 
 	content: url(https://imsuck.github.io/krankr-stuff/img/PogPega.png);
 }
+
+/* icons */
+#timerIcon{
+	display: none;
+}
+#ammoIcon {
+	display: none;
+}
+#ammoDisplay {
+	padding-right: 20px;
+}
