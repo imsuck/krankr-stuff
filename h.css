@@ -115,6 +115,14 @@
 	color: rgba(255, 255, 255, 0.55);
 }
 
+/* timer */
+#timerDisplay {
+	position: absolute;
+	left: 50%;
+	top: 40px;
+	transform: translateX(-50%);
+}
+
 /* idkr */
 #altAdd {
 	padding-top: 30px;
