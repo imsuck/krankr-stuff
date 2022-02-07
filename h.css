@@ -117,7 +117,7 @@
 
 /* timer */
 #timerDisplay {
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 40px;
 	transform: translateX(-50%);
