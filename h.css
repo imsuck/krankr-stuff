@@ -152,6 +152,9 @@
 .chatItem > span {
 	color: #65ccff;
 }
+.chatMsg[style*="color:#fc03ec"] {
+	color: #65ccff !important;
+}
 
 #curGameInfo {
 	font-size: 0;
