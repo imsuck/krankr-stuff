@@ -178,3 +178,29 @@
 #ammoDisplay {
 	padding-right: 20px;
 }
+
+/* hp bar */
+#healthBar {
+	position: fixed;
+	display: inline-flex;
+	flex-direction: row;
+	border-radius: 0;
+	left: 50%;
+	bottom: 5%;
+	width: 270px;
+	height: 30px;
+	transform: translateX(-50%);
+	outline: 2px solid black;
+	background-color: rgba(0, 0, 0, 0.25);
+	box-shadow: var(--shadow);
+}
+.healthBarSeg {
+	margin: 0;
+	border-radius: 0;
+	background-color: transparent;
+	width: -webkit-fill-available;
+}
+.hpBSeg {
+	border-radius: 0;
+	box-shadow: none;
+}
