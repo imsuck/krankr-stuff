@@ -10,6 +10,11 @@
 	--shadow: 2.5px 5px 5px black; /*spread vertical horizontal colour*/
 }
 
+/* display: none */
+#challIcon {
+	display: none !important;
+}
+
 /* Loading menu */
 @keyframes legacyloader {
 	from {
