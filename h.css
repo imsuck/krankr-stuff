@@ -181,13 +181,12 @@
 
 /* hp bar */
 #healthBar {
-	position: fixed;
 	display: inline-flex;
 	flex-direction: row;
+	width: 300px;
 	border-radius: 0;
 	outline: 2px solid black;
 	background-color: rgba(0, 0, 0, 0.25);
-	box-shadow: var(--shadow);
 }
 .healthBarSeg {
 	margin: 0;
