@@ -5,6 +5,7 @@
 @import url(https://envyxyz.github.io/removal/removal.css);
 
 :root {
+	--font-colour: #65ccff;
 	--pfp: url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128);
 	--pfp-r: 5px; /*pfp edge radius*/
 	--shadow: 2.5px 5px 5px black; /*spread vertical horizontal colour*/
@@ -158,11 +159,8 @@
 }
 
 /* PogPega */
-.chatItem > span {
-	color: #65ccff;
-}
 .chatMsg[style*="color:#fc03ec"] {
-	color: #65ccff !important;
+	color: var(--font-colour) !important;
 }
 
 #curGameInfo {
@@ -170,7 +168,7 @@
 }
 #curGameInfo:after {
 	font-size: 18px !important;
-	color: #65ccff;
+	color: var(--font-colour);
 	content: "PogPega";
 }
 #mainLogo { 
