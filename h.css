@@ -159,7 +159,7 @@
 }
 
 /* PogPega */
-.chatMsg/*[style*="color:#fc03ec"]*/ {
+.chatMsg {
 	color: var(--font-colour) !important;
 }
 
