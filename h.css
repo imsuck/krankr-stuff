@@ -87,7 +87,7 @@
 #uiBase.onMenu #spectateUI {
 	display: block !important;
 	position: fixed;
-	bottom: 48%;
+	bottom: 38%;
 	top: unset;
 	left: 50%;
 	right: unset;
@@ -105,8 +105,8 @@
 }
 
 #uiBase.onMenu #specTeam0,
-#uiBase.onMenu #spec0,
-#uiBase.onMenu #spec1,
+/*#uiBase.onMenu #spec0,
+#uiBase.onMenu #spec1,*/
 #uiBase.onMenu #specNames,
 #uiBase.onMenu #specStats,
 #uiBase.onMenu #specContr,
@@ -123,6 +123,7 @@
 	font-size: 35px;
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.55);
+	top: -80px !important;
 }
 
 /* timer */
