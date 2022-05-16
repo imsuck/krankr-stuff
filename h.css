@@ -13,8 +13,8 @@
 
 /* display: none */
 #challIcon,
-.leaderItem img[src='./img/ranked/rnk_0.svg'],
-.newLeaderItem img[src='./img/ranked/rnk_0.svg'] {
+.leaderItem img[src="/img/ranked/rnk_0.svg"],
+.newLeaderItem img[src="/img/ranked/rnk_0.svg"] {
 	display: none !important;
 }
 
