@@ -13,10 +13,8 @@
 
 /* display: none */
 #challIcon,
-.rankClck,
-#menuClassNameTag [src*="./img/ranked/"],
-.leaderItem [src*="./img/ranked/"],
-#endTable [src*="./img/ranked/"] {
+.leaderItem img[src='./img/ranked/rnk_0.svg'],
+.newLeaderItem img[src='./img/ranked/rnk_0.svg'] {
 	display: none !important;
 }
 
