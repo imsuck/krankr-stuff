@@ -13,8 +13,7 @@
 
 /* display: none */
 #ammoMax,
-.leaderItem img[src="/img/ranked/rnk_0.svg"],
-.newLeaderItem img[src="/img/ranked/rnk_0.svg"] {
+#maxHP {
 	display: none !important;
 }
 
