@@ -138,15 +138,19 @@
 
 /* Random pfp thing */
 #hudClassIcon {
-	content: var(--pfp, url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128));
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	content: var(--pfp);
 	filter: drop-shadow(var(--shadow));
+	background: none;
 }
 #profilePicM {
 	border-width: 0;
 	border-radius: calc(var(--pfp-r) * 2);
 }
 #profilePicM > img {
-	content: var(--pfp, url(https://cdn.discordapp.com/avatars/733198765162496120/5af064113eca0f0d04d2ba10d9b97961.png?size=128));
+	content: var(--pfp));
 }
 .blurred {
 	filter: none;
@@ -183,7 +187,13 @@
 	padding-right: 10px;
 }
 
-/* hp bar */
+/* health */
+#healthValueHolder {
+	background: none;
+}
+#healthValue {
+	transform: translateY(60px);
+}
 #healthBar {
 	display: inline-flex;
 	flex-direction: row;
@@ -193,7 +203,7 @@
 	background-color: rgba(0, 0, 0, 0.25);
 }
 .healthBarSeg {
-	margin: 0;
+	margin: 0 -1px;
 	border-radius: 0;
 	background-color: transparent;
 	width: -webkit-fill-available;
