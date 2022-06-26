@@ -145,12 +145,13 @@
 	filter: drop-shadow(var(--shadow));
 	background: none;
 }
+#menuMiniProfilePic {
+	content: var(--pfp);
+}
 #profilePicM {
 	border-width: 0;
 	border-radius: calc(var(--pfp-r) * 2);
-}
-#profilePicM > img {
-	content: var(--pfp));
+	content: var(--pfp);
 }
 .blurred {
 	filter: none;
