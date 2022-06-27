@@ -142,8 +142,8 @@
 	height: 100px;
 	margin-right: 10px;
 	content: var(--pfp);
-	filter: drop-shadow(var(--shadow));
-	background: none;
+	/*filter: drop-shadow(var(--shadow));
+	background: none;*/
 }
 #menuMiniProfilePic {
 	content: var(--pfp);
