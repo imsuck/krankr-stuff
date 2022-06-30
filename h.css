@@ -185,7 +185,23 @@
 	display: none;
 }
 #ammoDisplay {
-	padding-right: 10px;
+	padding: 0;
+	position: fixed;
+	left: 50%;
+	top: 52.5%;
+	transform: translateX(-50%);
+	width: 50px;
+	height: 4px;
+	background-color: transparent;
+	background-image: linear-gradient(#fff, #fff);
+}
+#ammoVal {
+	padding: 8px 17px 7px 20px;
+	position: fixed;
+	bottom: calc(-71.4vh + 35px);
+	right: calc(-131vh + 30px);
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
 }
 
 /* health */
