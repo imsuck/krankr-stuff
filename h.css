@@ -80,6 +80,102 @@
 	animation: legacyloader 0.8s infinite alternate;
 }
 
+/* Class selector */
+#hiddenClasses {
+	display: flex !important;
+	flex-direction: row;
+	position: fixed;
+	left: 50%;
+	bottom: 15%;
+	transform: translate(-50%);
+	margin-right: 10px;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"],
+#menuClassPicker1[onclick="selectClass(1)"],
+#menuClassPicker2[onclick="selectClass(2)"],
+#menuClassPicker3[onclick="selectClass(3)"],
+#menuClassPicker4[onclick="selectClass(4)"],
+#menuClassPicker5[onclick="selectClass(5)"],
+#menuClassPicker6[onclick="selectClass(6)"],
+#menuClassPicker7[onclick="selectClass(7)"],
+#menuClassPicker8[onclick="selectClass(8)"],
+#menuClassPicker9[onclick="selectClass(9)"],
+#menuClassPicker10[onclick="selectClass(10)"],
+#menuClassPicker11[onclick="selectClass(11)"],
+#menuClassPicker12[onclick="selectClass(12)"],
+#menuClassPicker13[onclick="selectClass(13)"],
+#menuClassPicker14[onclick="selectClass(14)"] {
+	width: 60px;
+	pointer-events: auto;
+	image-rendering: pixelated;
+	margin-right: 10px;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_0.png?build=uLz7w);
+}
+#menuClassPicker1[onclick="selectClass(1)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_1.png?build=uLz7w);
+}
+#menuClassPicker2[onclick="selectClass(2)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_2.png?build=uLz7w);
+}
+#menuClassPicker3[onclick="selectClass(3)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_3.png?build=uLz7w);
+}
+#menuClassPicker4[onclick="selectClass(4)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_4.png?build=uLz7w);
+}
+#menuClassPicker5[onclick="selectClass(5)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_5.png?build=uLz7w);
+}
+#menuClassPicker6[onclick="selectClass(6)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_6.png?build=uLz7w);
+}
+#menuClassPicker7[onclick="selectClass(7)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_7.png?build=uLz7w);
+}
+#menuClassPicker8[onclick="selectClass(8)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_8.png?build=uLz7w);
+}
+#menuClassPicker9[onclick="selectClass(9)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_9.png?build=uLz7w);
+}
+#menuClassPicker10[onclick="selectClass(10)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_10.png?build=uLz7w);
+}
+#menuClassPicker11[onclick="selectClass(11)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_11.png?build=uLz7w);
+}
+#menuClassPicker12[onclick="selectClass(12)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_12.png?build=uLz7w);
+}
+#menuClassPicker13[onclick="selectClass(13)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_13.png?build=uLz7w);
+}
+#menuClassPicker14[onclick="selectClass(14)"] {
+	content: url(https://assets.krunker.io/textures/classes/icon_14.png?build=uLz7w);
+}
+
+#menuClassPicker0[onclick="selectClass(0)"]:hover,
+#menuClassPicker1[onclick="selectClass(1)"]:hover,
+#menuClassPicker2[onclick="selectClass(2)"]:hover,
+#menuClassPicker3[onclick="selectClass(3)"]:hover,
+#menuClassPicker4[onclick="selectClass(4)"]:hover,
+#menuClassPicker5[onclick="selectClass(5)"]:hover,
+#menuClassPicker6[onclick="selectClass(6)"]:hover,
+#menuClassPicker7[onclick="selectClass(7)"]:hover,
+#menuClassPicker8[onclick="selectClass(8)"]:hover,
+#menuClassPicker9[onclick="selectClass(9)"]:hover,
+#menuClassPicker10[onclick="selectClass(10)"]:hover,
+#menuClassPicker11[onclick="selectClass(11)"]:hover,
+#menuClassPicker12[onclick="selectClass(12)"]:hover,
+#menuClassPicker13[onclick="selectClass(13)"]:hover,
+#menuClassPicker14[onclick="selectClass(14)"]:hover {
+	cursor: pointer;
+}
+
 /* Menu timer */
 #uiBase.onMenu #spectateUI {
 	display: block !important;
