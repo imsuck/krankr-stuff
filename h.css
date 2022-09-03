@@ -7,7 +7,7 @@
 :root {
 	--font-colour: #65ccff;
 	--pfp: url(https://cdn.discordapp.com/avatars/733198765162496120/74946fdefa9b585ca801e1953c5c3916.png?size=256);
-	--pfp-r: 5px; /*pfp edge radius*/
+	--pfp-r: 5px; /*pfp border radius*/
 	--shadow: 2.5px 5px 5px black; /*spread vertical horizontal colour*/
 }
 
@@ -232,22 +232,20 @@
 	padding-top: 30px;
 }
 
-/* Random pfp thing */
+/* profile pic blah blah blah */
+#hudClassIcon, #menuMiniProfilePic, #profilePicM {
+	content: var(--pfp);
+}
 #hudClassIcon {
 	width: 100px;
 	height: 100px;
 	margin-right: 10px;
-	content: var(--pfp);
 	/*filter: drop-shadow(var(--shadow));
 	background: none;*/
-}
-#menuMiniProfilePic {
-	content: var(--pfp);
 }
 #profilePicM {
 	border-width: 0;
 	border-radius: calc(var(--pfp-r) * 2);
-	content: var(--pfp);
 }
 .blurred {
 	filter: none;
