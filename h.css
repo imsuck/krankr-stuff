@@ -86,7 +86,7 @@
 	flex-direction: row;
 	position: fixed;
 	left: 50%;
-	bottom: 15%;
+	bottom: 26%;
 	transform: translate(-50%);
 	margin-right: 10px;
 }
@@ -233,7 +233,7 @@
 }
 
 /* profile pic blah blah blah */
-#hudClassIcon, #menuMiniProfilePic, #profilePicM {
+#bottomLeftClassImg, #menuMiniProfilePic, #profilePicM {
 	content: var(--pfp);
 }
 #hudClassIcon {
@@ -271,6 +271,9 @@
 #mainLogo { 
 	content: url(https://imsuck.github.io/krankr-stuff/img/PogPega.png);
 }
+#mainLogoFace {
+	display: none;
+}
 
 /* icons */
 #timerIcon,
@@ -278,7 +281,7 @@
 #ammoIcon {
 	display: none;
 }
-#ammoDisplay {
+#ammoHolder {
 	padding: 0;
 	position: fixed;
 	left: 50%;
@@ -289,10 +292,13 @@
 	background-color: transparent;
 	background-image: linear-gradient(#fff, #fff);
 }
+#ammoHolder .greyInner {
+	background-color: transparent;
+}
 #ammoVal {
 	padding: 8px 17px 7px 20px;
 	position: fixed;
-	bottom: calc(-71.4vh + 35px);
+	bottom: calc(-71.4vh + 25px);
 	right: calc(-131vh + 30px);
 	background-color: rgba(0, 0, 0, 0.3);
 	border-radius: 6px;
@@ -314,13 +320,13 @@
 	outline: 4px solid black;
 	background-color: rgba(0, 0, 0, 0.25);
 }
-.healthBarSeg {
+.nHealthBarSeg {
 	margin: 0 -1px;
 	border-radius: 0;
 	background-color: transparent;
 	width: -webkit-fill-available;
 }
-.hpBSeg {
+.nHpBSeg {
 	border-radius: 0;
 	box-shadow: none;
 }
